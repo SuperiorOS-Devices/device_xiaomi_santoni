@@ -243,3 +243,8 @@ persist.sys.wfd.virtual=0
 
 # Zygote preforking
 persist.device_config.runtime_native.usap_pool_enabled=true
+
+# Higher fling velocities
+# for smoother scrolling and better responsiveness
+ro.min.fling_velocity=160
+ro.max.fling_velocity=20000
