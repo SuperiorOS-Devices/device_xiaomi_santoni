@@ -65,6 +65,11 @@ vendor/lib64/soundfx/libqcreverb.so|8bdd74d69593cd838e4b92d9b2884e0c4140226f
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so|cfc916d9a1ee617c248f784359df41a95d3b820a
 
+# Audio dirac - from xiaomi
+lib/soundfx/libdirac.so 
+lib/libDiracAPI_SHARED.so
+vendor/etc/diracmobile.config
+
 # Bluetooth - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/bin/hci_qcomm_init
