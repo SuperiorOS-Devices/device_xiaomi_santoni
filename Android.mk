@@ -101,4 +101,8 @@ $(RFS_MSM_SLPI_SYMLINKS): $(LOCAL_INSTALLED_MODULE)
 
 ALL_DEFAULT_INSTALLED_MODULES += $(RFS_MSM_ADSP_SYMLINKS) $(RFS_MSM_MPSS_SYMLINKS) $(RFS_MSM_SLPI_SYMLINKS)
 
+# ramdisk
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/rootdir/init.spectrum.rc:root/init.spectrum.rc \
+    $(LOCAL_PATH)/rootdir/init.spectrum.sh:root/init.spectrum.sh
 endif
