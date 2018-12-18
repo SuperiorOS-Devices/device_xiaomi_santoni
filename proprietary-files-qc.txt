@@ -335,9 +335,9 @@ vendor/lib64/libsdmextension.so|b26b05c09aac03153fdb6ece475cc5866f390e1d
 vendor/lib64/libtinyxml2_1.so|b225b16e689e7e4c26fc6144637f6b0c416063f8
 vendor/lib64/libqseed3.so|8c45ff3b62f8ed36f6b46bfa030e9e8b8e7e3187
 
-# Graphics (Vulkan) - from marmite - OPM5.171019.017 - UOS273C
-vendor/lib/hw/vulkan.msm8937.so|51a1f4b341ca2ee428a46b3d7aafff147c3fe035
-vendor/lib64/hw/vulkan.msm8937.so|a7effff8c2dbc20efe18fde12c61b5fbf54e048a
+# Graphics (Vulkan) - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
+vendor/lib/hw/vulkan.msm8937.so|1426694ac179ddd26d0dadf9cc54305cad0386a4
+vendor/lib64/hw/vulkan.msm8937.so|82b72990a737799894c291f8a3515d7d668a5423
 
 # Keystore - from marmite - OPM5.171019.017 - UOS273C
 vendor/lib/hw/keystore.msm8937.so|3b01c9cda28c85accd726a8f9582fdd6bbb69cd6
