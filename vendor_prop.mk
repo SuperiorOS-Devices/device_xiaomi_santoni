@@ -138,6 +138,10 @@ vendor.vidc.disable.split.mode=1 \
 vendor.vidc.enc.disable.pq=true \
 video.disable.ubwc=1
 
+# Memory optimizations
+PRODUCT_PROPERTY_OVERRIDES += \
+ro.vendor.qti.sys.fw.bservice_enable=true
+
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.sys.fw.dex2oat_thread_count=4 \
