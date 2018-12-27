@@ -20,6 +20,16 @@ vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so|b9f68e320d24e9c51871a20
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|3e9c52069ff07e50191d3b3afb33b30409241ab6
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|91b9200dbb982abf0d6b440668252d892a616f66
 
+# ANT+ - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
+-lib/libantradio.so|7506f2577f2f1068688b623ca85e432be9c3dac9
+lib/com.qualcomm.qti.ant@1.0.so|fcd6a7130c480bfe4e4d9cc00702ed8444cddc82
+vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so|b6813ee32cace43a5e4eca963a11e28b3b54f37a
+vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|842fc3dacf0474b6ebd91441d86d1f80d6c38f41
+-lib64/libantradio.so|fb958cb68c99c71455f969afdf96225f5110f0df
+lib64/com.qualcomm.qti.ant@1.0.so|199481b290856fb63f5c5bf6def426b43309becb
+vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so|f5aa67e04c90f4a5e92693384cca81ba0aa38a79
+vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|d60fdc9dcf9565a60a2a5dffecba1691d9b14ef5
+
 # Audio libraries - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
 etc/permissions/audiosphere.xml
 framework/audiosphere.jar
@@ -58,28 +68,19 @@ vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|6a1f31ef0b626ca5fd51400
 vendor/bin/hci_qcomm_init|bb2a52dac8b0cd86f4cdbb9c49b6745f05dac6ac
 vendor/bin/wcnss_filter|c00bfd553410e2093d7dab3f066c8e745e9aa7ae
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|1a2dc1c2d217f47b9c99a0afa9e4912abd32e381
-
-vendor/lib/libbluetooth.so|e20847c9d5d52274b257008589d546ca26d48638
-vendor/lib/android.hardware.bluetooth.a2dp@1.0.so|afcd2a0f90476cd48eb91d01fd1947e7083a1b47
-vendor/lib/android.hardware.bluetooth@1.0.so|c0b35936e0d74bb4f4a43b90c989dbf1ddaacc81
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|9276c1b258c142cb6a4c13ad14b3cbdf35737735
 vendor/lib64/libbtnv.so|3d234c73102896e6493c5805d65238ece1d29f58
 vendor/lib64/libbt-hidlclient.so|c2358e54949c8b6cd267d34c6b8f3df92a90a490
+
+# Bluetooth a2dp (calling) - from
 vendor/lib64/libbluetooth_jni.so|c57158675b9f2f65aaf550392376ba775d71ebc1
 vendor/lib64/libbluetooth-binder.so|505a8e0cff6c06dd74d23f5c8229f3478179c2b3
 vendor/lib64/libbluetooth.so|6a8682504a9ed72233217e27224d068e411eb388
 vendor/lib64/android.hardware.bluetooth.a2dp@1.0.so|0f6e42af107a978638843965da1f79d69d47602b
 vendor/lib64/android.hardware.bluetooth@1.0.so|d0e74aa2a4870aea0c9f8cb473d1059693709939
-
-# Bluetooth (shared dependencies) - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
--lib/libantradio.so|7506f2577f2f1068688b623ca85e432be9c3dac9
-lib/com.qualcomm.qti.ant@1.0.so|fcd6a7130c480bfe4e4d9cc00702ed8444cddc82
-vendor/lib/com.qualcomm.qti.ant@1.0_vendor.so|b6813ee32cace43a5e4eca963a11e28b3b54f37a
-vendor/lib/hw/com.qualcomm.qti.ant@1.0-impl.so|842fc3dacf0474b6ebd91441d86d1f80d6c38f41
--lib64/libantradio.so|fb958cb68c99c71455f969afdf96225f5110f0df
-lib64/com.qualcomm.qti.ant@1.0.so|199481b290856fb63f5c5bf6def426b43309becb
-vendor/lib64/com.qualcomm.qti.ant@1.0_vendor.so|f5aa67e04c90f4a5e92693384cca81ba0aa38a79
-vendor/lib64/hw/com.qualcomm.qti.ant@1.0-impl.so|d60fdc9dcf9565a60a2a5dffecba1691d9b14ef5
+vendor/lib/libbluetooth.so|e20847c9d5d52274b257008589d546ca26d48638
+vendor/lib/android.hardware.bluetooth.a2dp@1.0.so|afcd2a0f90476cd48eb91d01fd1947e7083a1b47
+vendor/lib/android.hardware.bluetooth@1.0.so|c0b35936e0d74bb4f4a43b90c989dbf1ddaacc81
 
 # CNE - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
 -priv-app/CNEService/CNEService.apk|0b86c58107f79e6275ad9f42d561265d4ee707c1
@@ -256,7 +257,6 @@ vendor/lib64/libxtwifi_ulp_adaptor.so|078124cc018badf89c1f5588e9102e9f7c034da2
 vendor/lib64/vendor.qti.gnss@1.0_vendor.so|8afe1dedfbe678571104ff4e30f2021d9404ca78
 
 # Graphics - from marmite - OPM5.171019.017 - UOS273C
-vendor/lib/libgpustats.so|cb8b3024291ffb97a5621218a18f757ee0d77c02
 vendor/lib/egl/eglSubDriverAndroid.so|735a5c66d9e381a44d52765c62b6541339cfe4c1
 vendor/lib/egl/libEGL_adreno.so|07705dff2e127acc1fcfc733e952f9f8649ac45a
 vendor/lib/egl/libESXEGL_adreno.so|95164682cd189966c3808fe9dae53f403c0a1fdd
@@ -283,7 +283,6 @@ vendor/lib/libllvm-qcom.so|477d834b3387d83c4b67d85b28b0b479f6377c03
 vendor/lib/libmm-hdcpmgr.so|86adfc3154574d7b363dea7deadf2c468ef21210
 vendor/lib/librs_adreno.so|31ec54b970722ad8cf3845a1f363e7f94c016391
 vendor/lib/librs_adreno_sha1.so|cc57928890c9c008f9e628f8ee54e9dbd43ddc43
-vendor/lib64/libgpustats.so|d5cbfaf117fafaf595bb0e66214d80f6f652c964
 vendor/lib64/egl/eglSubDriverAndroid.so|5a576b88be6a367b8274821ca72cb30e6fdd7156
 vendor/lib64/egl/libEGL_adreno.so|76cce6852a10048b01acc3945abaf445db665082
 vendor/lib64/egl/libESXEGL_adreno.so|acbdaef91b81d5407134711902081e376d25bd9d
@@ -318,7 +317,6 @@ vendor/lib64/libhdr_tm.so|516358f18c32e884237449e5b93ba6868e21938c
 # Graphics (SDM) - from marmite - OPM5.171019.017 - UOS273C
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5c7e946cfa654f533d481970da9b3d2e0c181161
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|c6681b458123832bb6f4015fd3e24032d5b2eff8
-vendor/lib/libqseed3.so|3068e96424f57aa913fd07b32de7694c988e0147
 vendor/lib/libscalar.so|af7161c0a4a941eb133f82fffde21d5ed79e1b2d
 vendor/lib/libsdm-color.so|9144f6d1e254fc6353fb91386eb1d0ee1964d8a2
 vendor/lib/libsdm-diag.so|e2e3a0fba39190c58bafa0568e8cd51b391b71b6
@@ -331,7 +329,6 @@ vendor/lib64/libsdm-diag.so|87a4f764e894f16246c9a0d6e3f5885df76b750b
 -vendor/lib64/libsdm-disp-vndapis.so|fde2de5a3f031577edc39b49036435ef2607b134
 vendor/lib64/libsdmextension.so|b26b05c09aac03153fdb6ece475cc5866f390e1d
 vendor/lib64/libtinyxml2_1.so|b225b16e689e7e4c26fc6144637f6b0c416063f8
-vendor/lib64/libqseed3.so|8c45ff3b62f8ed36f6b46bfa030e9e8b8e7e3187
 
 # Graphics (Vulkan) - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
 vendor/lib/hw/vulkan.msm8937.so|1426694ac179ddd26d0dadf9cc54305cad0386a4
@@ -351,6 +348,7 @@ vendor/lib64/hw/sound_trigger.primary.msm8937.so|a7ab4173393fa335fee2fc359b553df
 
 # Media - from marmite - OPM5.171019.017 - UOS273C
 lib/libstagefright_soft_flacdec.so|5a8d861837a217ab26939b861966be2783c0aa88
+vendor/lib/libgpustats.so|cb8b3024291ffb97a5621218a18f757ee0d77c02
 vendor/lib/libI420colorconvert.so|148b7e8d305152c8f81586446ea7fd2cc7ebe818
 vendor/lib/libmm-color-convertor.so|804d1a2ad11159a0709a429be6273006af75066b
 vendor/lib/libmmosal_proprietary.so|45923cc3921b70d15070e019686c86e52c38d63c
@@ -376,6 +374,7 @@ vendor/lib/libvqzip.so|88e4b0722850be25caebe1884a2a6765f8b2acbc
 vendor/lib/libFlacSwDec.so|42f9a5acc85a48693304dc731f17424eba4cb610
 vendor/lib/libApeSwDec.so|9d5b4f3fbd633b51c5396070cfcee6028f5a3fb8
 vendor/lib/libAlacSwDec.so|a60f990030400c8d75b39bad16251e8108bb2473
+vendor/lib64/libgpustats.so|d5cbfaf117fafaf595bb0e66214d80f6f652c964
 vendor/lib64/libI420colorconvert.so|675334377c4cc5d2a418613ea7ceae1a9560340b
 vendor/lib64/libmm-color-convertor.so|281dd931378bffccc235e0d2c926db27e3144452
 vendor/lib64/libmmosal_proprietary.so|aa13df8c6e3b63996c165281f49826f44053bb17
@@ -463,6 +462,7 @@ vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|84a70f6dd21bfbc97
 vendor/bin/mm-pp-dpps|9501dcc4c938e7171741be35400d6fa5004b61af
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
+vendor/lib/libqseed3.so|3068e96424f57aa913fd07b32de7694c988e0147
 vendor/lib/libdisp-aba.so|d82b44e9519cd4f55b04f8f475dbd736e39714d9
 vendor/lib/vendor.display.color@1.1.so|5cbf7dbcf436c7b52d2201e7b670d54a2c742994
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|ca1933a8339a22ca006da87142d7933f1a2a2bd0
@@ -475,6 +475,7 @@ vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|12674982b974c4121467564b60b
 vendor/lib64/vendor.display.postproc@1.0.so|de9a0d12dcb4471a02b395878ec80fe9fc19b07c
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0_vendor.so|d101774878c0374ad805d964c3d00c71b44456d9
 vendor/lib64/vendor.display.color@1.0.so|0316423c6bf2f4af29c005f59ccd4a6924d1e008
+vendor/lib64/libqseed3.so|8c45ff3b62f8ed36f6b46bfa030e9e8b8e7e3187
 
 # QMI - from tissot - OPR1.170623.026.V9.5.4.0.ODHMIFA
 etc/permissions/qti_libpermissions.xml|ef3c88495f2f61a2d16e1445113a9d80f8db0e0a
@@ -518,7 +519,7 @@ vendor/lib64/libqmiservices.so|911cc82311f16570c8b511949493bf4a046b55c3
 vendor/lib64/libsmemlog.so|512653d3d9563fda55acb84d76006c298eb78ba2
 
 # Radio - from tissot - OPR1.170623.026.V9.5.4.0.ODHMIFA
--vendor/app/imssettings/imssettings.apk|74544b5bdecda261f00079e19d821fb7a512fc79
+-app/imssettings/imssettings.apk:vendor/app/imssettings/imssettings.apk|74544b5bdecda261f00079e19d821fb7a512fc79
 -app/QtiTelephonyService/QtiTelephonyService.apk|bf3e513d60db7d62b141dfea6b1a7bab13ab5c5b
 etc/permissions/qcrilhook.xml|9fc58a3d54d20ac1d53bab14608815121aefbce5
 etc/permissions/telephonyservice.xml|b297c8a27443570377d78586b00198839ce326bb
@@ -631,19 +632,16 @@ vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so|316b987040238deb27017b1b4013
 
 # Sensors - from marmite - OPM5.171019.017 - UOS273C
 vendor/bin/sensors.qcom|ac4219584168f4d19dbce0375b9955969275e31c
--vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar|f77a472e0c9bd6030eea3d7d7e60678a052d7fe0
 -vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|cbc37993a423de1de97114bf7de105d2aa792101
 vendor/lib/hw/activity_recognition.msm8937.so|471c0c7d52f1ada4b5cca3565fb2e4137487cd17
 vendor/lib/libsensor1.so|8b4a1fba125011709b764e3bb3f959e78056a013
 vendor/lib/libsensor_reg.so|b38a48d9d0c0cb2f98b274b93e45730826814b0c
 vendor/lib/sensors.ssc.so|4c593afd059b132eb25f3c89a6f192c178b0f914
-vendor/lib/vendor.qti.hardware.alarm@1.0.so|c0e5ac50d43dc3c6aec918a346dc6f08cad0610c
 vendor/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|50b2f47e31c65af5261812026855eed7e62f5c57
 vendor/lib64/hw/activity_recognition.msm8937.so|3b5ace9dc2565eb46a14293464718a773cead56a
 vendor/lib64/libsensor1.so|3bb8fc9d64e9314fffde62021019f769c9c67e01
 vendor/lib64/libsensor_reg.so|ed67fe926d547e385a1e24fa9173a9fd53cd57bb
 vendor/lib64/sensors.ssc.so|4a3735ff6b4196774233210713eb1c62f9dfa095
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|92f85112ffd180a00591f2e310517b169e00f4bb
 vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|743635a4dcb3c67eb32d874b261b12f6b1a19204
 
 # Thermal - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
