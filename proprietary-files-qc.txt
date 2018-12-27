@@ -575,7 +575,7 @@ vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|dd4aebcdd0f711b15ef173601ec121e7a91
 vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
 # Radio - IMS - from tissot - OPM1.171019.026 V9.6.4.0.ODHMIFE
--app/ims/ims.apk:vendor/app/ims/ims.apk|c69e8242a748e80395f681f68b1150b54ade504e
+-priv-app/ims/ims.apk|c69e8242a748e80395f681f68b1150b54ade504e
 -app/uceShimService/uceShimService.apk|10205df0f3c9e5867f9ec3a1fdf052f40ddb8e20
 etc/permissions/qti-vzw-ims-internal.xml|3e41b645dd4ad8bad6775c103a34bfd7a507a4f7
 etc/permissions/com.qualcomm.qti.imscmservice.xml|db25ef24f1937366d58a53b4f4b8923bc9e98d2d
