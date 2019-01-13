@@ -319,11 +319,11 @@ vendor/lib64/libmm-hdcpmgr.so|f3bc845319ca6a4530537dbc6707a9210c9aac5c
 vendor/lib64/librs_adreno.so|4b8f5f5f73dde6325b48d2d4a7e1c486485dc672
 vendor/lib64/librs_adreno_sha1.so|62f9a3da4a0339025493db807101e8d58d651818
 
-# Graphics (HDR) - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
-vendor/lib/libhdr_tm.so
-vendor/lib64/libhdr_tm.so
+# Graphics (HDR) - from marmite - OPM5.171019.017 - UOS273C
+vendor/lib/libhdr_tm.so|da11f5eebeb16eba5cad910840224dabeacf34d3
+vendor/lib64/libhdr_tm.so|516358f18c32e884237449e5b93ba6868e21938c
 
-# Graphics (SDM) - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
+# Graphics (SDM) - from LA.UM.7.5.r1-03700-8x96.0
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so
 vendor/lib/libscalar.so
@@ -339,9 +339,9 @@ vendor/lib64/libsdm-diag.so
 vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml2_1.so
 
-# Graphics (Vulkan) - from tissot - PKQ1.180917.001 V10.0.2.0.PDHMIFK
-vendor/lib/hw/vulkan.msm8953.so:vendor/lib/hw/vulkan.msm8937.so
-vendor/lib64/hw/vulkan.msm8953.so:vendor/lib64/hw/vulkan.msm8937.so
+# Graphics (Vulkan) - from jasmine - PKQ1.180904.001 V10.0.1.0.PDIMIFJ
+vendor/lib/hw/vulkan.msm8937.so|1426694ac179ddd26d0dadf9cc54305cad0386a4
+vendor/lib64/hw/vulkan.msm8937.so|82b72990a737799894c291f8a3515d7d668a5423
 
 # Keystore - from marmite - OPM5.171019.017 - UOS273C
 vendor/lib/hw/keystore.msm8937.so|3b01c9cda28c85accd726a8f9582fdd6bbb69cd6
