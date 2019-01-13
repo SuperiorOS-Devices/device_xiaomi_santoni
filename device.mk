@@ -449,3 +449,8 @@ PRODUCT_COPY_FILES += \
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
+
+# Spectrum Support
+PRODUCT_COPY_FILES += \
+   $(LOCAL_PATH)/rootdir/init.spectrum.rc:root/init.spectrum.rc \
+   $(LOCAL_PATH)/rootdir/init.spectrum.sh:root/init.spectrum.sh
