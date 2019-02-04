@@ -67,6 +67,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.software.sip.voip.xml \
     frameworks/native/data/etc/handheld_core_hardware.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/handheld_core_hardware.xml
 
+# Ambient Display
+PRODUCT_PACKAGES += \
+    XiaomiDoze
+
 # Audio
 PRODUCT_PACKAGES += \
     audiod \
@@ -183,10 +187,6 @@ PRODUCT_PACKAGES += \
     android.hardware.memtrack@1.0-service
 
 PRODUCT_PROPERTY_OVERRIDES += debug.hwui.use_buffer_age=false
-
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
 
 # DRM
 PRODUCT_PACKAGES += \
