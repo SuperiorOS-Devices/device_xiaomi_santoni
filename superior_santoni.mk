@@ -17,20 +17,18 @@
 $(call inherit-product, device/xiaomi/santoni/full_santoni.mk)
 
 # Inherit some common Revenge OS stuff.
-$(call inherit-product, vendor/aosip/config/common_full_phone.mk)
+$(call inherit-product, vendor/superior/config/common.mk)
 
 PRODUCT_DEVICE := santoni
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 4X
-PRODUCT_NAME := derp_santoni
+PRODUCT_NAME := superior_santoni
 BOARD_VENDOR := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
 
-# Official
-DERP_BUILDTYPE=Official
-
-#Updater json
-FORCE_JSON=1
+#OFFICIAL
+export SUPERIOR_OFFICIAL=true
+DEVICE_MAINTAINERS="Bikram Mukherjee"
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
