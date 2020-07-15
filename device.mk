@@ -518,3 +518,7 @@ PRODUCT_PACKAGES += \
 #XiaomiParts
 PRODUCT_PACKAGES += \
     XiaomiParts
+
+# Oto
+PRODUCT_PACKAGES += \
+    OTO
