@@ -501,4 +501,7 @@
 	<!-- Whether the device show_vendor_mismatch_message -->
     <bool name="config_show_vendor_mismatch_message">false</bool>
 
+    <!-- Whether the device supports Smart Pixels -->
+    <bool name="config_enableSmartPixels">true</bool>
+
 </resources>
