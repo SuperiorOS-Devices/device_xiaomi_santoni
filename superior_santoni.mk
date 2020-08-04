@@ -33,6 +33,9 @@ export SUPERIOR_OFFICIAL=true
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.superior.maintainer=Bikram-Mukherjee
 
+# Def Launcher
+TARGET_LAUNCHER := lawnchair
+
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
 
