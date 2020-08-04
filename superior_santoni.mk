@@ -28,7 +28,10 @@ PRODUCT_MANUFACTURER := Xiaomi
 
 #OFFICIAL
 export SUPERIOR_OFFICIAL=true
-DEVICE_MAINTAINERS="Bikram Mukherjee"
+
+# Maintainer
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.superior.maintainer=Bikram-Mukherjee
 
 # Boot animation
 TARGET_BOOT_ANIMATION_RES := 720
